@@ -1,14 +1,22 @@
-
-
 const Navbar = () => {
   return (
-    <nav className=" flex items-center text-black text-xs font-bold justify-center gap-5 py-5">
-        <p>About me</p>
-        <p>Skills</p>
-        <p>Portfolio</p>
-        <p>Contact Me</p>
+    <nav className=" text-white text-xs font-bold justify-center gap-5 pt-5 pb-8">
+      <ul className=" flex items-center justify-center gap-5 ">
+        <li>
+          <a href="#about">About me</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
