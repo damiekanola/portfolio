@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section className=" p-14 bg-gd50 text-white ">
-      <div className=" w-1/2 ">
+    <footer className=" p-14 bg-gddefault text-white " id="contact">
+      <div className=" w-2/3 ">
       <div className=" pb-4">
       <p className=" font-bold text-lg pb-2">Get in Touch</p>
         <p className=" font-normal text-xs">
@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
 
       </div>
-    </section>
+    </footer>
   );
 };
 
