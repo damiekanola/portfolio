@@ -1,6 +1,14 @@
+import { useEffect } from 'react';
+
 const Navbar = () => {
+    useEffect(() => {
+        const navbar = document.getElementById('navbar');
+        navbar.classList.add('visible');
+    }, []);
+
+
   return (
-    <nav className=" text-white text-xs font-bold justify-center gap-5 pt-5 pb-8">
+    <nav className=" text-white text-xs font-bold justify-center gap-5 pt-5 pb-8 top-0 left-0 transition-transform duration-1000 transform -translate-y-full" id='navbar'>
       <ul className=" flex items-center justify-center gap-5 ">
         <li>
           <a href="#about">About me</a>

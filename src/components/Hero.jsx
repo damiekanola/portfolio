@@ -1,22 +1,26 @@
-const Header = () => {
+import { useEffect } from 'react';
+
+const Hero = () => {
+    useEffect(() => {
+        const slidingDiv = document.getElementById('title');
+        const name = document.getElementById('name');
+        name.classList.add('visible');
+        slidingDiv.classList.add('visible');
+    }, []);
+
   return (
-    <section className=" text-white flex justify-between">
-      <div className=" w-1/2">
-        <p className=" font-normal text-[10px] pb-3">FRONT-END DEVELOPER</p>
-        <h1 className=" font-bold text-3xl pb-3">
-          Hi There, Im <br />
-          <span>Ekanola Damilola</span>
-        </h1>
-        <p className=" font-normal text-[10px]">
-          Welcome to my portfolio of captivating digital experiences. Explore my
-          work and lets create something extraordinary together.
-        </p>
-      </div>
-      <div className=" w-[200px] h-[200px] overflow-hidden">
-        <img src="./src/assets/damz.jpg" className="object-cover" />
+    <section className=" text-white">
+     
+      <p className=" font-light text-9xl mb-5 transition-transform duration-[1200ms] transform -translate-x-full" id='title'>FRONTEND DEVELOPER</p>
+      <div className="flex justify-between items-center transition-transform duration-[1400ms] transform translate-x-full" id='name'>
+        <h1 className=" font-bold text-9xl pb-3 w-[2/3]">EKANOLA DAMILOLA</h1>
+
+        <div className=" w-[220px] h-full overflow-hidden flex-shrink-0 rounded-full">
+          <img src="./src/assets/damz.jpg" className="object-cover" />
+        </div>
       </div>
     </section>
   );
 };
 
-export default Header;
+export default Hero;

@@ -1,0 +1,15 @@
+html {
+  font-family: 'Montserrat';
+}
+
+#navbar.visible {
+  transform: translateY(0); /* Final position */
+}
+
+#title.visible {
+  transform: translateX(0);; /* Final position */
+}
+
+#name.visible {
+  transform: translateX(0);; /* Final position */
+}
