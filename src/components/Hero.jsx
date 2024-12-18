@@ -48,7 +48,7 @@ const Hero = () => {
           </h1>
 
           <div className="max-w-[220px] overflow-hidden flex-shrink-0 rounded-full ">
-            <img src="./src/assets/damz.jpg" className="object-cover h-full" />
+            <img src="/images/damz.jpg" className="object-cover h-full" />
           </div>
         </div>
       </div>
