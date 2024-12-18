@@ -24,20 +24,6 @@ function About() {
         </p>
       </div>
 
-      {/* <div className=" flex justify-center items-center gap-7">
-        <div className=" flex-col">
-          <p className=" font-bold text-3xl">502</p>
-          <p>Projects</p>
-        </div>
-        <div>
-          <p className=" font-bold text-3xl flex justify-center">2</p>
-          <p>Years of Experience</p>
-        </div>
-        <div>
-          <p className=" font-bold text-3xl flex justify-center">502</p>
-          <p>Clients served</p>
-        </div>
-      </div> */}
     </section>
   );
 }

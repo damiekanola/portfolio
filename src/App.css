@@ -7,9 +7,13 @@ html {
 }
 
 #title.visible {
-  transform: translateX(0);; /* Final position */
+  transform: translateX(0); /* Final position */
 }
 
-#name.visible {
-  transform: translateX(0);; /* Final position */
+#deskName.visible {
+  transform: translateX(0); /* Final position */
+}
+
+#mobileName.visible {
+  transform: translateX(0);
 }
