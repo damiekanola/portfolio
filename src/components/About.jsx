@@ -6,24 +6,19 @@ function About() {
           About Me
         </h2>
         <p className=" font-normal text-base">
-          Im Damilola, a frontend developer with a degree in computer
-          engineering and over two years of experience turning ideas into
-          interactive, user-friendly web experiences. Im passionate about
-          bringing designs to life—crafting seamless interfaces that blend
-          functionality with creativity.
-        </p>
-        <p>
-          With a strong foundation in HTML, CSS, JavaScript, React, and Tailwind
-          CSS, I specialize in building responsive and engaging websites that
-          leave lasting impressions. For me, its not just about coding but
-          creating meaningful digital experiences.
-        </p>
-        <p>
-          When Im not writing code, I enjoy exploring creative outlets that fuel
-          my imagination and inspire my work.
+          Hi, I’m Damilola, a Computer Engineering graduate with a first-class
+          degree and over 2 years of experience as a Frontend Developer. I
+          specialize in crafting seamless user interfaces using HTML, CSS,
+          JavaScript, React.js, Tailwind CSS, and React Router, with a strong
+          command of Git for version control. I’m passionate about coding and
+          bringing designs to life, transforming creative ideas into functional,
+          visually appealing web experiences. I take pride in building solutions
+          that are not only aesthetically pleasing but also efficient and
+          user-friendly. When I’m not coding, you’ll probably find me exploring
+          new tech trends or refining my skills to deliver even better results.
+          Let’s create something amazing together!
         </p>
       </div>
-
     </section>
   );
 }
