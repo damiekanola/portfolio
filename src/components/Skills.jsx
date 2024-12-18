@@ -7,13 +7,13 @@ const SkillCard = ({ imgSrc, skillName }) => (
 
 const Skills = () => {
   const skills = [
-    { imgSrc: "./src/assets/react.svg", skillName: "React" },
-    { imgSrc: "./src/assets/javascript.svg", skillName: "JavaScript" },
-    { imgSrc: "./src/assets/tailwind.svg", skillName: "Tailwind CSS" },
-    { imgSrc: "./src/assets/html.svg", skillName: "HTML" },
-    { imgSrc: "./src/assets/css.svg", skillName: "CSS" },
-    { imgSrc: "./src/assets/git.svg", skillName: "Git" },
-    { imgSrc: "./src/assets/typescript.svg", skillName: "TypeScript" },
+    { imgSrc: "/images/react.svg", skillName: "React" },
+    { imgSrc: "/images/javascript.svg", skillName: "JavaScript" },
+    { imgSrc: "/images/tailwind.svg", skillName: "Tailwind CSS" },
+    { imgSrc: "/images/html.svg", skillName: "HTML" },
+    { imgSrc: "/images/css.svg", skillName: "CSS" },
+    { imgSrc: "/images/git.svg", skillName: "Git" },
+    { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
   ];
   return (
     <section className=" bg-gddefault text-white py-10 px-14">

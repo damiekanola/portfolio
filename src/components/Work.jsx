@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div className="flex h-[400px] bg-[#4b5563] overflow-hidden rounded-md w-full m-auto ">
       <div className=" p-10  h-full w-1/2">
-        <img src="./src/assets/incanto desktop.webp" />
+        <img src="/images/incanto desktop.webp" />
       </div>
       <div className="  bg-[#374151] p-8 w-1/2 h-full">
         <h2 className=" font-semibold text-xl mb-3">Incanto</h2>
