@@ -26,7 +26,7 @@ const Contact = () => {
 
           <li className=" flex items-center gap-2 text-sm">
           <FontAwesomeIcon icon={faLocationDot} />
-            <p>Lasgidi</p>
+            <p>Lekki, Lagos, Nigeria</p>
           </li>
 
         </ul>

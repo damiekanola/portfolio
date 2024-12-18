@@ -1,7 +1,7 @@
 function About() {
   return (
-    <section className=" bg-gd50 text-white px-15 py-8" id="about">
-      <div className=" w-[70%] m-auto pb-7">
+    <section className=" bg-gd50 text-white p-10 " id="about">
+      <div className="m-auto pb-7">
         <h2 className=" flex justify-center font-bold text-lg pb-3">
           About Me
         </h2>

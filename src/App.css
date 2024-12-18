@@ -6,7 +6,7 @@ html {
   transform: translateY(0); /* Final position */
 }
 
-#title.visible {
+#title.visible, #deskTitle.visible {
   transform: translateX(0); /* Final position */
 }
 
