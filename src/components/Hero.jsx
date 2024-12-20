@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className=" text-white w-full flex-col">
+    <section className=" text-white w-full bg-gddefault flex-col overflow-hidden">
       <div className=" min-[802px]:hidden" id="mobileView">
         <div className=" max-w-[130px] overflow-hidden rounded-full m-auto mb-12 border-white border">
           <img src="/images/damz.jpg" className=" h-full object-cover" />
@@ -25,7 +25,7 @@ const Hero = () => {
           EKANOLA DAMILOLA
         </h1>
         <p
-          className=" font-light break-words text-5xl text-center mb-8  transition-transform duration-[1200ms] transform -translate-x-full"
+          className=" font-light break-words text-5xl text-center pb-8  transition-transform duration-[1200ms] transform -translate-x-full"
           id="title"
         >
           FRONT-END DEVELOPER

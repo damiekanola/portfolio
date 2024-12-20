@@ -4,7 +4,7 @@ import { faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-
 const Contact = () => {
   return (
     <footer className=" p-14 bg-gddefault text-white " id="contact">
-      <div className=" w-2/3 ">
+      <div className=" w-full">
         <div className=" pb-4">
           <p className=" font-bold text-lg pb-2">Get in Touch</p>
           <p className=" font-normal text-sm">
