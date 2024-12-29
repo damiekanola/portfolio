@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Incanto",
+    "image": "/images/incanto desktop.webp",
+    "url": "https://react-incanto-clw8.vercel.app/",
+    "techStack": ["React JS", "MUI", "Tailwind CSS", "React Router"],
+    "description": "A fully responsive e-commerce website featuring a shopping cart with product management. It includes a mock Paystack payment integration for a real-world feel. Users can browse products, add them to their cart, and go through a smooth checkout process."
+  }
+]
