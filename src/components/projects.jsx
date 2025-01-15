@@ -9,7 +9,7 @@ const Projects = () => {
           key={project.id}
           name={project.name}
           image={project.image}
-          path={project.path}
+          path={project.url}
           description={project.description}
           stack={project.techStack}
         />
