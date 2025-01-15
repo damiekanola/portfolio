@@ -16,7 +16,7 @@ const Hero = () => {
     <section className=" text-white w-full bg-gddefault flex-col overflow-hidden">
       <div className=" min-[802px]:hidden px-3" id="mobileView">
         <div className=" max-w-[130px] overflow-hidden rounded-full m-auto mb-12 border-white border">
-          <img src="/images/damz.jpg" className=" h-full object-cover" />
+          <img src="/images/damz.jpg" className="object-cover" />
         </div>
         <h1
           className=" font-bold text-5xl text-center pb-3 transition-transform duration-[1400ms] transform translate-x-full"
