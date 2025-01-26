@@ -1,11 +1,11 @@
 function About() {
   return (
-    <section className=" bg-gd50 text-white p-10 " id="about">
+    <section className=" bg-gd50 text-white p-11 " id="about">
       <div className="m-auto pb-7">
         <h2 className=" flex justify-center font-bold text-lg pb-3">
           About Me
         </h2>
-        <p className=" font-normal text-base">
+        <p className=" font-normal text-base text-center">
           Hi, I’m Damilola, a Computer Engineering graduate with a first-class
           degree and over 2 years of experience as a Frontend Developer. I
           specialize in crafting seamless user interfaces using HTML, CSS,

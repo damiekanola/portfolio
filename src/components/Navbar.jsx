@@ -8,7 +8,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className=" text-white text-[10px] sticky bg-gddefault z-50 shadow-sm font-bold flex justify-center gap-5 py-6 " >
+    <nav className=" text-white text-[10px] bg-gddefault z-50 shadow-sm font-bold flex justify-center gap-5 py-6 " >
       <ul className=" flex items-center justify-center gap-5 w-fit top-0 left-0 transition-transform duration-1000 transform -translate-y-full " id='navbar'>
         <li>
           <a href="#about">About me</a>

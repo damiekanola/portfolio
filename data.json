@@ -6,5 +6,14 @@
     "url": "https://react-incanto-clw8.vercel.app/",
     "techStack": ["React JS", "MUI", "Tailwind CSS", "React Router"],
     "description": "A fully responsive e-commerce website featuring a shopping cart with product management. It includes a mock Paystack payment integration for a real-world feel. Users can browse products, add them to their cart, and go through a smooth checkout process."
+  },
+  {
+    "id": 2,
+    "name": "Trailers",
+    "image": "/images/incanto desktop.webp",
+    "url": "https://movie-database-app-mauve.vercel.app/",
+    "techStack": ["React JS", "Tailwind CSS", "React Router", "TypeScript"],
+    "description": "A fully responsive movie database website. The project integrated multiple TMDB API endpoints allowing users to view currently trending movies, view movies by genres and also search for various movies. Information about each movie is also provided such as the runtime, the cast members, the release date etc."
+
   }
 ]
