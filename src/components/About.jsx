@@ -7,7 +7,7 @@ function About() {
         </h2>
         <p className=" font-normal text-base text-center">
           Hi, I’m Damilola, a Computer Engineering graduate with a first-class
-          degree and over 2 years of experience as a Frontend Developer. I
+          degree and  1+ year of experience as a Frontend Developer. I
           specialize in crafting seamless user interfaces using HTML, CSS,
           JavaScript, React.js, Tailwind CSS, and React Router, with a strong
           command of Git for version control. I’m passionate about coding and

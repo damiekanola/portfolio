@@ -15,9 +15,9 @@ const Hero = () => {
   return (
     <section className=" text-white w-full bg-gddefault flex-col overflow-hidden">
       <div className=" min-[802px]:hidden px-3" id="mobileView">
-        <div className=" max-w-[130px] overflow-hidden rounded-full m-auto mb-12 border-white border">
+        {/* <div className=" max-w-[130px] overflow-hidden rounded-full m-auto mb-12 border-white border">
           <img src="/images/damz.jpg" className="object-cover" />
-        </div>
+        </div> */}
         <h1
           className=" font-bold text-5xl text-center pb-3 transition-transform duration-[1400ms] transform translate-x-full"
           id="mobileName"
@@ -47,9 +47,9 @@ const Hero = () => {
             EKANOLA DAMILOLA
           </h1>
 
-          <div className="max-w-[210px] overflow-hidden flex-shrink-0 rounded-full">
+          {/* <div className="max-w-[210px] overflow-hidden flex-shrink-0 rounded-full">
             <img src="/images/damz.jpg" className="object-cover" />
-          </div>
+          </div> */}
         </div>
       </div>
 

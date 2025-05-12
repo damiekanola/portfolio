@@ -1,7 +1,9 @@
+import { motion } from "framer-motion";
+
 const SkillCard = ({ imgSrc, skillName }) => (
   <div className=" flex-shrink-0">
-    <img src={imgSrc} className="max-w-[60px]" alt={skillName} />
-    <span className=" flex justify-center mt-2">{skillName}</span>
+    <img src={imgSrc} className="max-w-[40px]" alt={skillName} />
+    <span className=" flex justify-center mt-2 text-sm">{skillName}</span>
   </div>
 );
 
@@ -20,6 +22,18 @@ const Skills = () => {
       <h2 className=" text-center font-bold text-lg mb-5">Skills</h2>
       <div>
         <div className=" flex justify-between flex-wrap gap-4">
+          {/* <div className="w-[75%] m-auto overflow-hidden">
+        <motion.div
+          className="flex justify-between text-white text-3xl"
+          animate={{ x: ["100%", "-100%"] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              duration: 100,
+              ease: "linear",
+            },
+          }}
+        > */}
           {skills.map((skill, index) => (
             <SkillCard
               key={index}
@@ -27,6 +41,9 @@ const Skills = () => {
               skillName={skill.skillName}
             />
           ))}
+
+          {/* </motion.div>
+        </div> */}
         </div>
       </div>
     </section>
