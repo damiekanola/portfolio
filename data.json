@@ -14,6 +14,13 @@
     "url": "https://movie-database-app-mauve.vercel.app/",
     "techStack": ["React JS", "Tailwind CSS", "React Router", "TypeScript"],
     "description": "A fully responsive movie database website. The project integrated multiple TMDB API endpoints allowing users to view currently trending movies, view movies by genres and also search for various movies. Information about each movie is also provided such as the runtime, the cast members, the release date etc."
-
+  },
+  {
+    "id": 3,
+    "name": "Task Organizer",
+    "image": "/images/Task.png",
+    "url": "https://acehelp-assessment.vercel.app/",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "description": "This is a Task Organization web app that fetches and displays tasks from the JSONPlaceholder public API in a grid format. It’s built to be simple and easy to use, with pagination for smooth navigation through large sets of tasks. It also includes a search bar to quickly find tasks and a filter feature to narrow down results based on certain criteria. "
   }
 ]
