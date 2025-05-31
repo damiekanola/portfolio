@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+
 
 const SkillCard = ({ imgSrc, skillName }) => (
   <div className=" flex-shrink-0">
@@ -18,7 +18,7 @@ const Skills = () => {
     { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
   ];
   return (
-    <section className=" bg-gddefault text-white py-8  px-10">
+    <section className=" bg-gddefault text-white py-8  px-10" id="skills">
       <h2 className=" text-center font-bold text-lg mb-5">Skills</h2>
       <div>
         <div className=" flex justify-between flex-wrap gap-4">

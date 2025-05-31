@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "Trailers",
-    "image": "/images/incanto desktop.webp",
-    "url": "https://movie-database-app-mauve.vercel.app/",
-    "techStack": ["React JS", "Tailwind CSS", "React Router", "TypeScript"],
-    "description": "A fully responsive movie database website. The project integrated multiple TMDB API endpoints allowing users to view currently trending movies, view movies by genres and also search for various movies. Information about each movie is also provided such as the runtime, the cast members, the release date etc."
+    "name": "Modiba Solutions",
+    "image": "/images/modiba.png",
+    "url": "https://www.modibasolutions.com/",
+    "techStack": ["React JS", "Tailwind CSS", "Next JS", "TypeScript", "Redux"],
+    "description": "I worked on the frontend of a service-based business website using React and Next.js. I turned the Figma designs into responsive, clean pages and made sure everything looked good on all devices. I also worked with a backend engineer to connect things like the contact form and dynamic sections to the API. The goal was to keep the site fast, user-friendly, and easy to navigate."
   },
   {
     "id": 3,
