@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { HiMiniXMark } from "react-icons/hi2";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => setIsOpen(!open);
+
 
   useEffect(() => {
     const navbar = document.getElementById("navbar");
@@ -42,12 +43,14 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="p-4 flex justify-between items-center ">
-          <button onClick={() => setIsOpen(false)}>✕</button>
+        <div className="p-4 flex justify-end items-center ">
+          <button onClick={() => setIsOpen(false)}>
+            <HiMiniXMark size={30} />
+          </button>
         </div>
 
-        <ul className="p-4 space-y-4">
-           <li className="hover:text-sky-300">
+        <ul className="p-4 space-y-4 text-base">
+           <li className="hover:text-sky-300 text-base">
           <a href="#about">About me</a>
         </li>
         <li className="hover:text-sky-300">
