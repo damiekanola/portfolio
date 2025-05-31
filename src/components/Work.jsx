@@ -5,7 +5,7 @@ import Tech from "./Tech";
 
 const Work = ({ name, image, path, description, stack}) => {
   return (
-    <article className="flex max-[800px]:flex-col h-full overflow-hidden rounded-md mb-6">
+    <article className="flex max-[800px]:flex-col h-full overflow-hidden rounded-md mb-12 hover:scale-105">
       <div className=" p-10 w-full bg-[#4b5563] flex-1 max-[800px]:flex-none max-[800px]:h-1/3">
         <img src={image} className=" object-contain" />
       </div>

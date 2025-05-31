@@ -1,14 +1,18 @@
 function About() {
   return (
-    <section className=" bg-gd50 text-white p-11 " id="about">
+    <section className="  text-white md:px-14 " id="about">
       <div className="m-auto pb-7">
-        <h2 className=" flex justify-center font-bold text-lg pb-3">
-          About Me
-        </h2>
-        <p className=" font-normal text-base text-center">
-          Hi, I’m Damilola, a Front End Developer with 1+ years of experience. I I
-          specialize in crafting seamless user interfaces using HTML, CSS,
-          JavaScript, React.js, Tailwind CSS, React Router and Next js, with a strong
+        <div className=" flex items-center mb-6">
+          <h2 className=" text-left font-bold text-lg">
+            {" "}
+            <span className=" text-sky-300">01.</span> About me
+          </h2>
+          <div className=" ml-4 bg-gray-400 h-px flex-1 opacity-40"></div>
+        </div>
+        <p className=" font-normal text-lg text-left">
+          I'm a Front End Developer with 1+ years of experience. I specialize in
+          crafting seamless user interfaces using HTML, CSS, JavaScript,
+          React.js, Tailwind CSS, React Router and Next js, with a strong
           command of Git for version control. I’m passionate about coding and
           bringing designs to life, transforming creative ideas into functional,
           visually appealing web experiences. I take pride in building solutions

@@ -1,22 +1,27 @@
 import "./App.css";
-import Header from "./components/Header";
+
+import Herooo from "./components/Herooo";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Projects from "./components/projects";
-import Hero from "./components/Hero";
+
 
 function App() {
   return (
     <>
+    <main className=" bg-gddefault px-5">
+
       <Navbar />
-      <Hero />
+  
       {/* <Header /> */}
+      <Herooo />
       <About />
       <Skills />
       <Projects />
       <Contact />
+    </main>
     </>
   );
 }
