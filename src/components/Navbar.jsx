@@ -66,6 +66,17 @@ const Navbar = () => {
           <li className="hover:text-sky-300">
             <a href="#contact">Contact Me</a>
           </li>
+          {/* <div className=" flex ite">
+        <a href="/my_resume.pdf" download="My_Resume.pdf">
+          <button className="download-btn">Download My Resume</button>
+        </a>
+      </div> */}
+
+          {/* <li className="hover:text-sky-300">
+            <a href="/my_resume.pdf" download="My_Resume.pdf">
+              <button >Download My Resume</button>
+            </a>
+          </li> */}
         </ul>
       </div>
     </nav>

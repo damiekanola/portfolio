@@ -12,12 +12,20 @@ const Skills = () => {
   const skills = [
     { imgSrc: "/images/react.svg", skillName: "React" },
     { imgSrc: "/images/javascript.svg", skillName: "JavaScript" },
-    // { imgSrc: "/images/tailwind.svg", skillName: "Tailwind CSS" },
+    { imgSrc: "/images/tailwind.svg", skillName: "Tailwind CSS" },
     { imgSrc: "/images/html.svg", skillName: "HTML" },
     { imgSrc: "/images/css.svg", skillName: "CSS" },
     { imgSrc: "/images/git.svg", skillName: "Git" },
     { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
-    // { imgSrc: "/images/nexxtjs.svg", skillName: "Next JS" },
+    
+    // { imgSrc: "/images/react.svg", skillName: "React" },
+    // { imgSrc: "/images/javascript.svg", skillName: "JavaScript" },
+    // { imgSrc: "/images/tailwind.svg", skillName: "Tailwind CSS" },
+    // { imgSrc: "/images/html.svg", skillName: "HTML" },
+    // { imgSrc: "/images/css.svg", skillName: "CSS" },
+    // { imgSrc: "/images/git.svg", skillName: "Git" },
+    // { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
+  
   ];
   return (
     <section className=" bg-gddefault text-white py-12  md:px-10" id="skills">
