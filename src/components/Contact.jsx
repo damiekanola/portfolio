@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faEnvelope,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -19,16 +23,18 @@ const Contact = () => {
             <p className="">+2348109994187</p>
           </li>
 
-          <li className=" flex items-center gap-2 text-sm ">
-          <FontAwesomeIcon icon={faEnvelope} />
-            <p className="">damiekanola@gmail.com</p>
-          </li>
+          
+          <a href="mailto:damiekanola@gmail.com">
+            <li className=" flex items-center gap-2 text-sm ">
+              <FontAwesomeIcon icon={faEnvelope} />
+              <p className="">damiekanola@gmail.com</p>
+            </li>
+          </a>
 
           <li className=" flex items-center gap-2 text-sm">
-          <FontAwesomeIcon icon={faLocationDot} />
+            <FontAwesomeIcon icon={faLocationDot} />
             <p>Lekki, Lagos, Nigeria</p>
           </li>
-
         </ul>
       </div>
     </footer>

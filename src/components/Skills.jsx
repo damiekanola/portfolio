@@ -3,6 +3,7 @@ import Marquee from "react-fast-marquee";
 const SkillCard = ({ imgSrc, skillName }) => (
   <div className=" mx-8 inline-block">
     <img src={imgSrc} className="max-w-[40px]" alt={skillName} />
+  
     <span className=" flex justify-center mt-2 text-sm">{skillName}</span>
   </div>
 );
@@ -16,13 +17,7 @@ const Skills = () => {
     { imgSrc: "/images/css.svg", skillName: "CSS" },
     { imgSrc: "/images/git.svg", skillName: "Git" },
     { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
-    // { imgSrc: "/images/react.svg", skillName: "React" },
-    // { imgSrc: "/images/javascript.svg", skillName: "JavaScript" },
-    // // { imgSrc: "/images/tailwind.svg", skillName: "Tailwind CSS" },
-    // { imgSrc: "/images/html.svg", skillName: "HTML" },
-    // { imgSrc: "/images/css.svg", skillName: "CSS" },
-    // { imgSrc: "/images/git.svg", skillName: "Git" },
-    // { imgSrc: "/images/typescript.svg", skillName: "TypeScript" },
+    // { imgSrc: "/images/nexxtjs.svg", skillName: "Next JS" },
   ];
   return (
     <section className=" bg-gddefault text-white py-12  md:px-10" id="skills">
