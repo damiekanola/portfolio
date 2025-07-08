@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "name": "iKlass Tutors",
+    "image": "/images/iklass.png",
+    "url": "https://www.iklasstutors.com/",
+    "techStack": ["React JS", "Tailwind CSS", "Next JS", "Redux", "TypeScript"],
+    "description": "iKlass Tutors is an nline platform that connects students and parents with verified, skilled tutors for both in-person and online learning. I worked alongside a team of devlopers to create the interface along with implemen its core feature and functionlaities."
+  },
+  {
+    "id": 4,
     "name": "Task Organizer",
     "image": "/images/Task.png",
     "url": "https://acehelp-assessment.vercel.app/",

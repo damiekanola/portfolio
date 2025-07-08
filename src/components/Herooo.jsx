@@ -56,6 +56,7 @@ const Herooo = () => {
         >
           Ekanola Damilola.
         </h1>
+       
         <p
           className={`text-[6vw] font-medium text-gray-500 transform transition-all duration-700 delay-200 ${
             showLines[2]
