@@ -9,6 +9,14 @@
   },
   {
     "id": 2,
+    "name": "KreateSell",
+    "image": "/images/Kreatesell.png",
+    "url": "https://kreatesell.com/",
+    "techStack": ["React JS", "Tailwind CSS", "Next JS"],
+    "description": "KreateSell is a user-friendly, all-in-one e-commerce platform designed especially for creators, entrepreneurs, and content producers—particularly across Africa—who want to sell digital products globally with ease."
+  },
+  {
+    "id": 3,
     "name": "Modiba Solutions",
     "image": "/images/modiba.png",
     "url": "https://www.modibasolutions.com/",
@@ -16,7 +24,7 @@
     "description": "I worked on the frontend of a service-based business website using React and Next.js. I turned the Figma designs into responsive, clean pages and made sure everything looked good on all devices. I also worked with a backend engineer to connect things like the contact form and dynamic sections to the API. The goal was to keep the site fast, user-friendly, and easy to navigate."
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "iKlass Tutors",
     "image": "/images/iklass.png",
     "url": "https://www.iklasstutors.com/",
@@ -24,11 +32,12 @@
     "description": "iKlass Tutors is an nline platform that connects students and parents with verified, skilled tutors for both in-person and online learning. I worked alongside a team of devlopers to create the interface along with implemen its core feature and functionlaities."
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Task Organizer",
     "image": "/images/Task.png",
     "url": "https://acehelp-assessment.vercel.app/",
     "techStack": ["React JS", "Tailwind CSS"],
     "description": "This is a Task Organization web app that fetches and displays tasks from the JSONPlaceholder public API in a grid format. It’s built to be simple and easy to use, with pagination for smooth navigation through large sets of tasks. It also includes a search bar to quickly find tasks and a filter feature to narrow down results based on certain criteria. "
   }
+  
 ]
