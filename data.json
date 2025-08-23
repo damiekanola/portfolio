@@ -37,7 +37,7 @@
     "image": "/images/Task.png",
     "url": "https://acehelp-assessment.vercel.app/",
     "techStack": ["React JS", "Tailwind CSS"],
-    "description": "This is a Task Organization web app that fetches and displays tasks from the JSONPlaceholder public API in a grid format. It’s built to be simple and easy to use, with pagination for smooth navigation through large sets of tasks. It also includes a search bar to quickly find tasks and a filter feature to narrow down results based on certain criteria. "
+    "description": "This is a Task Management web app that demonstrates my ability to consume and work with external APIs. It fetches task data from the JSONPlaceholder API and presents it in a clean, responsive grid layout. The app includes pagination for handling large datasets, a search bar for quick lookups, and dynamic filtering to refine results based on specific conditions. The project showcases how I can integrate multiple endpoints, manage state efficiently, and build user-friendly features around real API data."
   }
   
 ]
