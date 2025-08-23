@@ -11,8 +11,8 @@ function About() {
         </div>
         <p className=" font-normal text-lg text-left">
           I'm a Front End Developer with 1+ years of experience. I specialize in
-          crafting seamless user interfaces using HTML, CSS, JavaScript,
-          React.js, Tailwind CSS, React Router and Next js, with a strong
+          crafting seamless user interfaces using <span className=" font-semibold">HTML, CSS, JavaScript,
+          React.js, Tailwind CSS, React Router and Next js</span>, with a strong
           command of Git for version control. I’m passionate about coding and
           bringing designs to life, transforming creative ideas into functional,
           visually appealing web experiences. I take pride in building solutions
