@@ -38,6 +38,14 @@
     "url": "https://acehelp-assessment.vercel.app/",
     "techStack": ["React JS", "Tailwind CSS"],
     "description": "This is a Task Management web app that demonstrates my ability to consume and work with external APIs. It fetches task data from the JSONPlaceholder API and presents it in a clean, responsive grid layout. The app includes pagination for handling large datasets, a search bar for quick lookups, and dynamic filtering to refine results based on specific conditions. The project showcases how I can integrate multiple endpoints, manage state efficiently, and build user-friendly features around real API data."
+  },
+  {
+    "id": 6,
+    "name": "Myxellia Help Centre",
+    "image": "/images/Task.png",
+    "url": "https://myxellia-pink.vercel.app/",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "description": "This is a Task Management web app that demonstrates my ability to consume and work with external APIs. It fetches task data from the JSONPlaceholder API and presents it in a clean, responsive grid layout. The app includes pagination for handling large datasets, a search bar for quick lookups, and dynamic filtering to refine results based on specific conditions. The project showcases how I can integrate multiple endpoints, manage state efficiently, and build user-friendly features around real API data."
   }
   
 ]
