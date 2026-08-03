@@ -1,25 +1,3 @@
-// const Herooo = () => {
-//   return (
-//     <div className="bg-gddefault text-white px-14 h-[80vh] flex items-center justify-center">
-//       <div className="">
-//         <p className=" text-lg font-medium text-sky-300">Hi, my name is</p>
-//         <h1 className=" text-[7rem] font-medium hover:text-sky-300">Ekanola Damilola.</h1>
-//         <p className=" text-[4rem] font-medium text-gray-500 ">
-//           I create smooth web experiences.
-//         </p>
-//         {/* <p className=" text-base w-2/3">
-//         I'm a frontend developer who enjoys turning designs into clean,
-//         responsive websites. I focus on building user-friendly interfaces that
-//         look good and perform well. I'm always learning and improving, and I
-//         love working on real projects that make a difference.
-//       </p> */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Herooo;
-
 import { useEffect, useState } from "react";
 
 const Herooo = () => {

@@ -8,6 +8,22 @@
     "description": "A fully responsive e-commerce website featuring a shopping cart with product management. It includes a mock Paystack payment integration for a real-world feel. Users can browse products, add them to their cart, and go through a smooth checkout process."
   },
   {
+    "id": 7,
+    "name": "Veerge",
+    "image": "/images/veerge.png",
+    "url": "https://veerge.myxellia.io/auth/onboarding/login",
+    "techStack": ["Next JS", "Chakra UI", "React Query"],
+    "description": "A real estate management platform that helps property developers and companies manage listings, customer relationships, sales processes, and business operations. I actively contributed to the frontend development, building responsive interfaces, implementing reusable components, and integrating frontend features using Next.js, Chakra UI, and React Query."
+  },
+  {
+    "id": 8,
+    "name": "Expert Listing",
+    "image": "/images/expertlistig.png",
+    "url": "https://www.expertlisting.ng/",
+    "techStack": ["Next JS", "Chakra UI", "React Query"],
+    "description": "A real estate marketplace that provides verified property listings for buyers and renters, connecting them with property owners, developers, and agents. I worked as part of the frontend team, contributing to the development of user interfaces, feature implementation, and ensuring a smooth and responsive user experience."
+  },
+  {
     "id": 2,
     "name": "KreateSell",
     "image": "/images/Kreatesell.png",
@@ -31,21 +47,21 @@
     "techStack": ["React JS", "Tailwind CSS", "Next JS", "Redux", "TypeScript"],
     "description": "iKlass Tutors is an nline platform that connects students and parents with verified, skilled tutors for both in-person and online learning. I worked alongside a team of devlopers to create the interface along with implemen its core feature and functionlaities."
   },
+
+  {
+    "id": 6,
+    "name": "Myxellia Help Centre",
+    "image": "/images/helpcentre.png",
+    "url": "https://help-centre-five.vercel.app/",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "description": "A help centre platform designed to provide users with easy access to support resources and information. I contributed to building the frontend interface, creating responsive layouts, implementing reusable components, and ensuring a smooth user experience across different devices."
+  },
   {
     "id": 5,
     "name": "Task Organizer",
     "image": "/images/Task.png",
     "url": "https://acehelp-assessment.vercel.app/",
     "techStack": ["React JS", "Tailwind CSS"],
-    "description": "This is a Task Management web app that demonstrates my ability to consume and work with external APIs. It fetches task data from the JSONPlaceholder API and presents it in a clean, responsive grid layout. The app includes pagination for handling large datasets, a search bar for quick lookups, and dynamic filtering to refine results based on specific conditions. The project showcases how I can integrate multiple endpoints, manage state efficiently, and build user-friendly features around real API data."
-  },
-  {
-    "id": 6,
-    "name": "Myxellia Help Centre",
-    "image": "/images/Task.png",
-    "url": "https://myxellia-pink.vercel.app/",
-    "techStack": ["React JS", "Tailwind CSS"],
-    "description": "This is a Task Management web app that demonstrates my ability to consume and work with external APIs. It fetches task data from the JSONPlaceholder API and presents it in a clean, responsive grid layout. The app includes pagination for handling large datasets, a search bar for quick lookups, and dynamic filtering to refine results based on specific conditions. The project showcases how I can integrate multiple endpoints, manage state efficiently, and build user-friendly features around real API data."
+    "description": "A task management application built to demonstrate API integration and frontend state management. The app consumes external API data, displays tasks in a responsive layout, and includes features such as pagination, search, and filtering. It showcases my ability to work with APIs, manage application state, and create intuitive user experiences."
   }
-  
 ]
